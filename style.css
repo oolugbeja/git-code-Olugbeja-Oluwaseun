@@ -385,7 +385,7 @@ footer {
 
 @media screen and (min-width: 316px){
     .card{
-        width: 95%;
+        width: 80%;
     }
 
     nav .links{
