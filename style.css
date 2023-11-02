@@ -276,6 +276,9 @@ footer {
     .banner h4{
         font-size: 0.93rem;
     }
+    nav .links{
+        display:contents;
+    }
 
     #image{
         width: 9rem;
@@ -324,14 +327,6 @@ footer {
 }
 
 @media(max-width: 610px){
-    .form{
-        width: 10rem;
-    }
-
-    .message-area{
-        max-width: 100%;
-    }
-
     nav h2,
     nav .links button a{
         font-size: 0.9rem;
@@ -341,6 +336,9 @@ footer {
     }
     .banner h4{
         font-size: 0.85rem;
+    }
+    nav .links{
+        display:contents;
     }
 
     #image{
@@ -352,15 +350,17 @@ footer {
     }
 
     
-
-
 }
 
 @media(max-width: 439px){
     .card{
         width: 80%;
     }
+    nav .links{
+        display:contents;
+    }
 }
+
 
 @media(max-width: 377px){
     nav h2,
@@ -373,19 +373,23 @@ footer {
     .banner h4{
         font-size: 0.93rem;
     }
+
+    nav .links{
+        display:contents;
+    }
     
     .card{
         max-width: 93%;
     }
 }
 
-@media(max-width: 316px){
+@media screen and (min-width: 316px){
     .card{
         width: 95%;
     }
 
     nav .links{
-        display: none;
+        display:contents;
     }
 
     nav h2{
